@@ -14,6 +14,8 @@
 		E947150A2875366D00083318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94715092875366D00083318 /* Assets.xcassets */; };
 		E947150D2875366D00083318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E947150B2875366D00083318 /* LaunchScreen.storyboard */; };
 		E94715152875656B00083318 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E94715142875656B00083318 /* README.md */; };
+		E9F3F35B287569A5000F9F8F /* iPhone12.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F3F35A287569A5000F9F8F /* iPhone12.png */; };
+		E9F3F35D28756DA1000F9F8F /* RichView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3F35C28756DA1000F9F8F /* RichView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E947150C2875366D00083318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E947150E2875366D00083318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E94715142875656B00083318 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E9F3F35A287569A5000F9F8F /* iPhone12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone12.png; sourceTree = "<group>"; };
+		E9F3F35C28756DA1000F9F8F /* RichView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				E94715002875366A00083318 /* AppDelegate.swift */,
 				E94715022875366B00083318 /* SceneDelegate.swift */,
 				E94715042875366B00083318 /* ViewController.swift */,
+				E9F3F35C28756DA1000F9F8F /* RichView.swift */,
 				E94715062875366B00083318 /* Main.storyboard */,
 				E94715092875366D00083318 /* Assets.xcassets */,
 				E947150B2875366D00083318 /* LaunchScreen.storyboard */,
@@ -74,6 +79,7 @@
 		E94715162875665B00083318 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				E9F3F35A287569A5000F9F8F /* iPhone12.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -137,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E947150D2875366D00083318 /* LaunchScreen.storyboard in Resources */,
+				E9F3F35B287569A5000F9F8F /* iPhone12.png in Resources */,
 				E947150A2875366D00083318 /* Assets.xcassets in Resources */,
 				E94715152875656B00083318 /* README.md in Resources */,
 				E94715082875366B00083318 /* Main.storyboard in Resources */,
@@ -152,6 +159,7 @@
 			files = (
 				E94715052875366B00083318 /* ViewController.swift in Sources */,
 				E94715012875366A00083318 /* AppDelegate.swift in Sources */,
+				E9F3F35D28756DA1000F9F8F /* RichView.swift in Sources */,
 				E94715032875366B00083318 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
