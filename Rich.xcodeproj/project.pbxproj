@@ -42,6 +42,7 @@
 		E94714F42875366A00083318 = {
 			isa = PBXGroup;
 			children = (
+				E94715162875665B00083318 /* Assets */,
 				E94715142875656B00083318 /* README.md */,
 				E94714FF2875366A00083318 /* Rich */,
 				E94714FE2875366A00083318 /* Products */,
@@ -68,6 +69,13 @@
 				E947150E2875366D00083318 /* Info.plist */,
 			);
 			path = Rich;
+			sourceTree = "<group>";
+		};
+		E94715162875665B00083318 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
